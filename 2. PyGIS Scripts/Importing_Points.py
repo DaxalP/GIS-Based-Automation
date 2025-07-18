@@ -1,6 +1,6 @@
 from qgis.core import QgsVectorLayer, QgsProject
 
-csv_path = "C:/Users/dpiso/OneDrive/Desktop/NIUA_Intern/GIS/cleaned_clusters.csv"
+csv_path = "C:/Users/dpiso/OneDrive/Desktop/NIUA_Intern/GIS/tax_compliance.csv"
 layer_name = "Property Points"
 
 # Simplified URI — remove escape/quote 
