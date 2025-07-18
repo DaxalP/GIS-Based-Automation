@@ -30,6 +30,7 @@
 7.  [Potential Challenges and Risks](#potential-challenges-and-risks)
 8.  [Future Scope](#future-scope)
 9.  [References](#references)
+10. [Technology Stack Considerations](#technology-stack-considerations)
 
 ---
 
@@ -185,3 +186,21 @@ The tool will display property-level non-compliance and risk zones through an in
 * HDBSCAN Documentation – hdbscan.readthedocs.io
 * QGIS – Open-source GIS Tool
 * Prof. Nisheeth Srivastava – IIT Kanpur, Spatial Tax Insights
+
+## 10. Technology Stack Considerations
+
+This table outlines a comparison between the current open-source tools chosen for this project and potential paid/enterprise alternatives, along with relevant remarks.
+
+| Category             | Current Open Source Tool | Paid/Enterprise Alternative          | Remarks                                                                               |
+| :------------------- | :----------------------- | :----------------------------------- | :------------------------------------------------------------------------------------ |
+| Programming          | Python                   | MATLAB or SAS                        | For high-level mathematical and statistical computing, often used in gov.              |
+| Web Framework        | FastAPI                  | Microsoft .NET Core, Spring Boot (Java) | Mature ecosystems with better support for enterprise-grade deployments                 |
+| GIS Software         | QGIS                     | ArcGIS Pro / ArcGIS Online (Esri)    | Industry-leading GIS platform with rich tools and enterprise support                  |
+| Database             | PostgreSQL               | Oracle DB, Microsoft SQL Server      | Scalable RDBMS with enterprise-grade performance and support                          |
+| Spatial Extension    | PostGIS                  | Oracle Spatial, Esri ArcSDE (for ArcGIS) | Advanced spatial functions, better integration with proprietary GIS tools             |
+| Dashboard            | Streamlit / Folium       | Power BI (with ArcGIS Maps), Tableau | Paid dashboards with embedded mapping, cross-service integration                      |
+| Cloud Infrastructure | Self-hosted / VM         | AWS, Azure, Google Cloud (GCP)       | Scalable, secure, with managed databases and AI APIs                                   |
+| Clustering           | HDBSCAN (Scikit-learn)   | SAS Visual Data Mining, IBM SPSS Modeler | GUI-based ML platforms suitable for clustering and classification tasks               |
+| Anomaly Detection    | Scikit-learn + Manual Logic | DataRobot, Amazon Lookout for Metrics | AutoML tools for anomaly detection, good for real-time analytics                       |
+| Data Handling        | Pandas / NumPy           | Alteryx, Informatica, SAP BTP        | Powerful data wrangling, transformation, and integration platforms                    |
+| Visualization Mapping | Folium / Matplotlib     | ArcGIS Insights, Tableau + Mapbox, Kepler.gl | More polished, interactive maps with enterprise deployment capabilities               |
